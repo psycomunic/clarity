@@ -18,3 +18,11 @@ View your app in AI Studio: https://ai.studio/apps/drive/1rpaAFVsHGR2N3Rm8eOJv1f
 2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
 3. Run the app:
    `npm run dev`
+
+## Deploy to Vercel
+
+1. Push your code to a Git repository (GitHub/GitLab/Bitbucket).
+2. Import the project into Vercel.
+3. In the "Environment Variables" section during import, add:
+   - `GEMINI_API_KEY`: Your Google Gemini API Key.
+4. Click "Deploy".
